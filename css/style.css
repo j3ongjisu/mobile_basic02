@@ -1,0 +1,41 @@
+html {
+    font-size: 6.25%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.box {
+    height: 100px;
+    background: #111;
+
+    & span {
+        font-size: 50rem;
+        color: #fff;
+    }
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media(max-width:1200px) {
+    html {
+        font-size: 6.25%;
+    }
+
+    .box {
+        background: #ddd;
+    }
+}
